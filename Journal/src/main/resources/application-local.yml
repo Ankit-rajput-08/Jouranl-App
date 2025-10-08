@@ -1,0 +1,39 @@
+spring:
+  data:
+      mongodb:
+          uri: mongodb+srv://Ankit:Hawan2000@cluster0.ysx5hm5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+          database: journaldb
+          auto-index-creation: true
+      redis:
+        host: redis-10874.c277.us-east-1-3.ec2.redns.redis-cloud.com
+        port: 10874
+        username: default
+        password: 44O6ded8Eb9D91Kl9HED7hhD4ri4IDxH
+        ssl:
+          enabled: false
+
+  mail:
+     host: smtp.gmail.com
+     port: 587
+     username: ankraj0009@gmail.com
+     password:  cagd atfj ffwd lkmz
+     properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+
+
+  main:
+    allow-circular-references: true
+
+
+
+weather:
+  api:
+    key: 49fba40353e4e35a898faa543fc3fb86
+    value: http://api.weatherstack.com/current?access_key=API_KEY&query=CITY
