@@ -32,4 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 
-application-*.yml
+### Profile ###
+application-local.yml
+
+###Configure###
+ src/main/java/com/example/Journal/Configure/MailConfig.java
