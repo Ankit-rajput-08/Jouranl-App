@@ -36,4 +36,4 @@ build/
 application-local.yml
 
 ###Configure###
- src/main/java/com/example/Journal/Configure/MailConfig.java
+src/main/java/com/example/Journal/Configure/MailConfig.java
